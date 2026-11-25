@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@400;500;600;700&family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&display=swap');
+
+:root {
+  /* Overlay layers */
+  --z-overlay: 400;
+
+  --z-spotlight: 1000; /* Tutorial spotlights/guided help */
+
+  /* System layers */
+  --z-critical: 2000; /* Critical system notifications */
+
+  /* spacing */
+  --spacing-1: 0.25rem;
+  --spacing-2: 0.5rem;
+  --spacing-3: 0.75rem;
+  --spacing-4: 1rem;
+  --spacing-6: 1.5rem;
+  --spacing-8: 2rem;
+  --spacing-12: 3rem;
+  --spacing-16: 4rem;
+  --spacing-20: 5rem;
+}
+
+:root {
+  color-scheme: dark;
+  --background: #080c14;
+  --foreground: #ecf5ff;
+  --surface: #111a28;
+  --surface-foreground: #ecf5ff;
+  --sidebar: #0c1420;
+  --sidebar-foreground: #dce9f6;
+  --card: #121d2d;
+  --card-foreground: #ecf5ff;
+  --popup: #182438;
+  --popup-foreground: #f4f8ff;
+  --primary: #42e4f2;
+  --primary-foreground: #041219;
+  --secondary: #ff48a7;
+  --secondary-foreground: #1a0712;
+  --accent: #1d3446;
+  --accent-foreground: #d9f8ff;
+  --muted: #182332;
+  --muted-foreground: #91a5ba;
+  --success: #45d6a2;
+  --success-foreground: #04150f;
+  --error: #ff657d;
+  --error-foreground: #21050a;
+  --warning: #f6bd62;
+  --warning-foreground: #1c1204;
+  --info: #61baff;
+  --info-foreground: #061523;
+  --info-hover: #3aa8f4;
+  --info-active: #238cda;
+  --border: #26374a;
+  --font-family-base: 'IBM Plex Sans Arabic', sans-serif;
+  --font-family-display: 'Changa', sans-serif;
+  --font-family-monospace: 'IBM Plex Mono', monospace;
+  --font-family-cursive: cursive;
+  --shadow: 0 10px 28px rgba(0, 0, 0, .22);
+  --shadow-md: 0 16px 42px rgba(0, 0, 0, .3);
+  --shadow-lg: 0 24px 64px rgba(0, 0, 0, .4);
+  --shadow-focus: 0 0 0 3px rgba(66, 228, 242, .2);
+  --radius-sm: 7px;
+  --radius: 11px;
+  --radius-md: 14px;
+  --radius-lg: 20px;
+  --radius-full: 9999px;
+  --animation-duration-fast: 120ms;
+  --animation-duration-normal: 220ms;
+  --animation-duration-slow: 420ms;
+  --chart-color-1: #42e4f2;
+  --chart-color-2: #ff48a7;
+  --chart-color-3: #8b84ff;
+  --chart-color-4: #45d6a2;
+  --chart-color-5: #f6bd62;
+  --robot-cyan: #42e4f2;
+  --robot-magenta: #ff48a7;
+}
+
+.dark {}
