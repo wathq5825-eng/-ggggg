@@ -1,0 +1,7 @@
+{
+  "name": "wathiq-ai-live-source",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Source snapshot of WAThIQ AI LIVE Floot prototype",
+  "note": "Floot-specific source snapshot; not standalone build configuration."
+}
